@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@font-face 
+{
+    font-family: "cr_font";
+    src: url(cr/cr_font.ttf);
+}
+*
+{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/*//////////////////////////////////////////////////PAGE 1/////////////////////////////////////////////////////////////////*/
+.body1
+{
+    background: rgb(188,133,212);
+    background: linear-gradient(148deg, rgba(188,133,212,1) 0%, rgba(90,190,201,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main1
+{
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+.logo_spotify
+{
+    width: 255px; height: 255px;
+    border-radius: 22%;
+}
+.logo_spotify:hover
+{
+    -moz-box-shadow: 0 0 13px #ccc;
+    -webkit-box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px #ccc;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.logo_insta
+{
+    width: 255px; height: 255px;
+    border-radius: 22%;
+}
+.logo_insta:hover
+{
+    -moz-box-shadow: 0 0 13px #ccc;
+    -webkit-box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px #ccc;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.logo_cr
+{
+    width: 255px; height: 255px;
+    border-radius: 22%;
+}
+.logo_cr:hover
+{
+    -moz-box-shadow: 0 0 13px #ccc;
+    -webkit-box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px #ccc;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.app1
+{
+    display: flex;
+    flex-direction: column;
+}
+.titre1
+{
+    padding-top: 5%;
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.main1
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/*///////////////////////////////////////////////////PAGE 2/////////////////////////////////////////////////////////////////*/
+.header2
+{
+    line-height: 50px;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header2 ul h2
+{
+    line-height: 70px;
+}
+.header2 ul
+{
+    line-height: 35px;
+    font-size: larger;
+    display: block;
+    list-style: none;
+    padding-right: 10px;
+}
+.header2 ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.header2 div
+{
+    margin-top: 60vh;
+}
+.retour2
+{
+    padding-left: 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.body2
+{   
+    display: flex;
+    overflow: hidden;
+    font-family: 'Hind Siliguri', sans-serif;
+    background: black;
+    color: white;
+}
+.spotify
+{
+    padding-top: 20px;
+    width: 140px;
+}
+.playlist
+{   
+    padding-left: 300px;
+}
+.scroll
+{
+  text-align: center;
+  background-color: #121212;
+  width: 1750px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.text2
+{
+    padding-top: 2%;
+    display: flex;
+    font-size: x-large ;
+    text-align: center;
+    word-wrap: normal;
+    justify-content:space-around  ;
+    padding-left: 20px;
+    padding-bottom: 3%;
+}
+.text2 p
+{
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.text2 img
+{
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-right: 60px;
+}
+.interface2
+{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.interface2 h2
+{
+    padding-left: 45px;
+    padding-top: 100px;
+    line-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: larger;
+}
+.interface2 ul li
+{
+    padding-left: 65px;
+    line-height: 30px;
+    display: flex;
+    list-style: none;
+}
+.interface2 div img
+{   
+    padding-left: 50px;
+    width: 1000px;
+}
+
+#madvillainy
+{
+    display: flex;
+    justify-content: baseline;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+#Joey
+{
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+    padding-top:60px;
+}
+#Japanese_City_Pop
+{
+    display: flex;
+    justify-content: baseline;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/*////////////////////////////////////////////////PAGE 3///////////////////////////////////////////////////////////////////*/
+.header3
+{
+    display: flex
+}
+.boutton3
+{
+    text-decoration: none;
+    color: black;
+}
+.header3 div
+{
+    background-color: white;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.header3 .logo_insta3
+{
+    padding-left: 30px;
+    width: 170px;
+}
+.home3 img
+{
+    margin-top: 5px;
+    width: 46px;
+}
+.icone3
+{
+    display: flex;
+    max-height: 109px;
+}
+.icone3 div
+{
+    display: flex;
+    justify-content: end;
+    width: 65px;
+    height: 100px;
+    max-height: 100px;
+}
+.search_insta
+{
+    margin-top: 25px;
+    width: 45px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.boutton3
+{
+    margin-top: 20px;
+    width: 50px;
+    margin-right: 24px;
+}
+.boutton_profil3
+{
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.home3
+{
+    padding-top: 18px;
+    width: 57px;
+    margin-right: 10px;
+}
+.retour3
+{
+    margin-top: 2.5%;
+    padding-left: 80%;
+}
+.body3
+{
+    background: rgb(99,58,224);
+    background: linear-gradient(132deg, rgba(99,58,224,1) 21%, rgba(252,70,107,1) 91%, rgba(252,70,107,1) 97%);
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.screen div
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.screen img
+{
+    width: 280px; height: 570px;
+    border-radius: 20px;
+}
+
+.screen div img:hover
+{
+    -moz-box-shadow: 0 0 13px #ccc;
+    -webkit-box-shadow: 0 0 13px #ccc;
+    box-shadow: 0 0 13px #ccc;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}   
+
+.recommandation_insta div a
+{
+    text-decoration: none;
+    color: black;
+}
+.recommandation_insta div ul li
+{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: large;
+    list-style:circle;
+}
+.recommandation_insta
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 50px;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.recommandation_insta div div
+{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 20px;
+    width: auto;
+}
+.recommandation_insta div div:hover
+{
+    -moz-box-shadow: 0 0 30px black;
+    -webkit-box-shadow: 0 0 30px black;
+    box-shadow: 0 0 20px #ccc;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+/*////////////////////////////////////////////////////PAGE 4////////////////////////////////////////////////////////////*/
+.body4
+{
+    margin: 0%;
+    width: 100%; height: auto;
+}
+
+
+.header4
+{
+    background-color: #488BF4;
+    max-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: start ;
+    margin-bottom: 50px;
+}
+.header4 a h2
+{
+    margin-left: 700px;
+    color: white;
+    text-decoration: none;
+}
+.réseau4
+{
+    display: flex;
+}
+.réseau4 p
+{ 
+    padding-right: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: larger;
+   
+}
+.réseau4 a
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 8px;
+}
+.réseau4 a img
+{
+    width: 28px;
+}
+.logo_cr_long
+{
+    display: flex;
+    justify-content: center ;
+    width: auto ;
+}
+.logo_cr_long img
+{
+    margin-top: 80px;
+    width: 200px; 
+    min-width: 200px;
+    margin-left: 600px;
+
+}
+
+.container
+{
+    display: flex ;
+    justify-content: center;
+    flex-direction: row;
+}
+.screen4
+{
+    width: 300px;
+    border-radius: 20px;
+    min-width: 300px;
+    
+}
+.box_retour
+{
+    margin-left: 750px;
+}
+.box_retour a
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.container h2
+{
+    margin-top: 30px;
+    font-family: cr_font;
+}
+.accueil_etc
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: cr_font;
+    width: 600px;
+    margin-right: 100px;
+}
+.news4
+{
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.news4 iframe
+{
+    background-color: #488BF4;
+    padding: 20px;
+}
+.news4 h2
+{
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.screen4
+{
+    width: 200px;
+}
+.slider {
+    width: 400px;
+    min-width: 400px;
+    height: 750px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-left: 30px;
+  }
+  .image-container {
+    width: 1200px;
+    background-color: pink;
+    height: 750px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -400px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -800px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+  }
